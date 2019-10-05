@@ -22,7 +22,6 @@ sudo apt update && sudo apt install sublime-text
 sudo apt install ipython
 ```
 
-
 # Ipython3
 ```
 sudo apt install ipython3
@@ -33,20 +32,18 @@ sudo apt install ipython3
 sudo apt install virtualenv
 ```
 
-# Virtual ENviourment Create
+# Virtual Enviourment Create
 * python-2
 ```
 virtualenv enviourment_name -p python
 ```
 
-** python-3
+* python-3
 ```
 virtualenv enviourment_name -p python3
 ```
 
-#++++++++++++++++++++++++++++++++++++#
 # GIT
-#++++++++++++++++++++++++++++++++++++#
 ```
 sudo apt install git
 ```
