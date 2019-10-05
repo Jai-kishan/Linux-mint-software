@@ -116,4 +116,4 @@ Threads: 1  Questions: 12  Slow queries: 0  Opens: 115  Flush tables: 1  Open ta
 ```
 * This means MySQL is up and running. 
 
-* For more details[MySql](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04)
+* For more details [Click me ](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04)
