@@ -1,4 +1,4 @@
-# Linux-mint-software
+# Linux-software
 how to install Linux mint basic software using termianl
 
 # sublime
