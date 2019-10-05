@@ -2,7 +2,7 @@
 how to install Linux mint basic software using termianl
 
 # sublime
-*Open a terminal and use the command below to install the GPG key.
+* Open a terminal and use the command below to install the GPG key.
 ```
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add - 
 ```
