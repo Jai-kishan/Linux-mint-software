@@ -83,5 +83,66 @@ postgres-# \q
 postgres-# \conninfo
 ```
 
+
+# Basic PSQL commands
+
+## psql
+```
+psql is the standard PostgreSQL application to work with databases
+It uses a superset of standard SQL
+It can be interactively like DBaccess, or in scripts like sqlcmd
+```
+
+## Common psql Command Line Options
+```
+-A, –no-align: set output to non-aligned, no padding
+-c sql, –command sql: execute the sql command and then exit
+-d name, –dbname name: name of database, same as name as the first non-option argument
+-f name, –file name: use name as the source of commands
+-o name, –output name: put the output in name
+-q, –quiet: suppress welcome messages
+-t, –tuples-only: suppress print column names, result row counters, etc
+-?, –help: get command line help
+```
+
+## Common psql Meta-commands
+```
+\a: toggle output format (aligned/unaligned)
+\c name: connect to a database name
+\copy table: copy a table to/from a file
+\d : list all tables (display)
+\d table: show information about a table
+\e: edit the query buffer
+\g: execute the query buffer (go)
+\h command: display help on command
+\i name: read name into query buffer (input)
+```
+
+## Common psql Meta-commands
+```
+\o name: send output to name
+\p: display the query buffer
+\q: quit the program
+\r: resets (clears) the query buffer
+\t: toggle the output headers on/off
+\w name: write the query buffer to name
+\! command: execute the Linux command
+\?: help on meta-commands
+```
+
+## Interactive psql
+```
+Typing in a query loads the query buffer
+The command will not run unless terminated with a semicolon (;)
+Meta-commands all start with blackslash (\)
+Exit with \q
+```
+
+
+
+
+
+
+
 **You can also follow this link**
 [PostgreSQL](http://www.codebind.com/linux-tutorials/install-postgresql-9-6-ubuntu-18-04-lts-linux/)
