@@ -2,5 +2,5 @@
 **Step 1: Add PostgreSQL Apt Repository
 
 
-** You can also follow this link **
+**You can also follow this link**
 [PostgreSQL](http://www.codebind.com/linux-tutorials/install-postgresql-9-6-ubuntu-18-04-lts-linux/)
