@@ -50,7 +50,18 @@ virtualenv enviourment_name -p python
 ### python-3
 ```
 virtualenv enviourment_name -p python3
+```
 
-
-
+### Add Opera browser Repository
+Let's start by adding an Opera repository and keyring. Open up terminal and enter:
+```
+wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
+```
+```
+sudo add-apt-repository "deb [arch=i386,amd64] https://deb.opera.com/opera-stable/ stable non-free"
+```
+*Install Opera Browser*
+At this stage to install the Opera browser on Ubuntu 18.04 Bionic Beaver is easy as executing the below command:
+```
+sudo apt install opera-stable
 ```
