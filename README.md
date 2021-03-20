@@ -47,6 +47,11 @@ virtualenv enviourment_name -p python3
 ```
 sudo apt install git
 ```
+# MongoDB compass
+follow this ling :- 
+```
+https://www.mongodb.com/try/download/compass
+````
 
 # How To Install MySQL on Ubuntu 18.04
 
