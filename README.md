@@ -42,6 +42,15 @@ virtualenv enviourment_name -p python
 ```
 virtualenv enviourment_name -p python3
 ```
+# FileZilla
+```
+https://www.computernetworkingnotes.com/linux-tutorials/how-to-install-filezilla-ftp-client-in-ubuntu.html
+```
+
+# Termius
+```
+https://termius.com/linux
+```
 
 # GIT
 ```
