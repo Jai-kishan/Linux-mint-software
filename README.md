@@ -1,6 +1,22 @@
 # Linux-software
 how to install Linux mint basic software using termianl
 
+# install Skype 
+referance :- https://linuxize.com/post/how-to-install-skype-on-ubuntu-18-04/
+1. Download Skype
+Open your terminal either by using the Ctrl+Alt+T keyboard shortcut or by clicking on the terminal icon.
+Download the latest Skype .deb package using the following wget command :
+```
+wget https://go.skype.com/skypeforlinux-64.deb
+```
+
+2. Install Skype
+Once the download is complete, install Skype by running the following command as a user with sudo privileges:
+```
+sudo apt install ./skypeforlinux-64.deb
+```
+
+
 # sublime
 * Open a terminal and use the command below to install the GPG key.
 ```
